@@ -1,0 +1,9 @@
+:root {
+  --blue: hsl(212, 50%, 50%);
+  --dark-bg: hsl(212, 20%, 20%);
+  --font-color-primary: hsl(100, 20%, 90%);
+}
+* {
+  background: var(--dark-bg);
+  color: var(--font-color-primary);
+  }
