@@ -21,15 +21,14 @@ main {
   height: 100vh;
 }
 
-ul{
+.nav-links{
   display: flex;
   width: 100%;
   flex-wrap: wrap;
   align-content: space-between;
   list-style-type: none;
 }
-
-ul > li {
+.nav-links > li {
   margin-left: 5px;
   margin-right: 5px;
 }
