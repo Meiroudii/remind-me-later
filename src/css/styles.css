@@ -6,4 +6,44 @@
 * {
   background: var(--dark-bg);
   color: var(--font-color-primary);
+  font-size: 1.2rem;
   }
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  height: 100vh;
+}
+
+ul{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: space-between;
+  list-style-type: none;
+}
+
+ul > li {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.writeWorkspace {
+  border: solid 2px white;
+  height: 40vh;
+  width: 100%;
+  padding: 10px;
+}
+
+.reminders {
+  border: solid 2px white;
+  width: 100%;
+  height: 40vh;
+  padding: 10px;
+}
